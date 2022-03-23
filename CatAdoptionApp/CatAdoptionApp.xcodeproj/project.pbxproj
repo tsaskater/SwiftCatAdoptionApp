@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844DD64327D4053100867338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD64227D4053100867338 /* AppDelegate.swift */; };
+		844DD64527D4053100867338 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD64427D4053100867338 /* SceneDelegate.swift */; };
+		844DD64727D4053100867338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD64627D4053100867338 /* ViewController.swift */; };
+		844DD64A27D4053100867338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DD64827D4053100867338 /* Main.storyboard */; };
+		844DD64C27D4053500867338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DD64B27D4053500867338 /* Assets.xcassets */; };
+		844DD64F27D4053500867338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DD64D27D4053500867338 /* LaunchScreen.storyboard */; };
+		844DD65727D406EF00867338 /* awaitingCatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD65627D406EF00867338 /* awaitingCatsViewController.swift */; };
+		844DD65927D4070800867338 /* adoptedCatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD65827D4070800867338 /* adoptedCatsViewController.swift */; };
+		844DD65C27D4294200867338 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD65B27D4294200867338 /* Cat.swift */; };
+		844DD65F27D4332300867338 /* CatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD65E27D4332300867338 /* CatCard.swift */; };
+		844DD66127D502D000867338 /* addCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD66027D502D000867338 /* addCatViewController.swift */; };
+		844DD66427D6916300867338 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 844DD66327D6916300867338 /* Realm */; };
+		844DD66627D6916300867338 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 844DD66527D6916300867338 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844DD63F27D4053100867338 /* CatAdoptionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAdoptionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844DD64227D4053100867338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844DD64427D4053100867338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		844DD64627D4053100867338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844DD64927D4053100867338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844DD64B27D4053500867338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844DD64E27D4053500867338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844DD65027D4053500867338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844DD65627D406EF00867338 /* awaitingCatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awaitingCatsViewController.swift; sourceTree = "<group>"; };
+		844DD65827D4070800867338 /* adoptedCatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adoptedCatsViewController.swift; sourceTree = "<group>"; };
+		844DD65B27D4294200867338 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		844DD65E27D4332300867338 /* CatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCard.swift; sourceTree = "<group>"; };
+		844DD66027D502D000867338 /* addCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844DD63C27D4053100867338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DD66627D6916300867338 /* RealmSwift in Frameworks */,
+				844DD66427D6916300867338 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844DD63627D4053100867338 = {
+			isa = PBXGroup;
+			children = (
+				844DD64127D4053100867338 /* CatAdoptionApp */,
+				844DD64027D4053100867338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844DD64027D4053100867338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844DD63F27D4053100867338 /* CatAdoptionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844DD64127D4053100867338 /* CatAdoptionApp */ = {
+			isa = PBXGroup;
+			children = (
+				844DD65D27D432EF00867338 /* Widget */,
+				844DD65A27D428D100867338 /* Class */,
+				844DD64227D4053100867338 /* AppDelegate.swift */,
+				844DD64427D4053100867338 /* SceneDelegate.swift */,
+				844DD64627D4053100867338 /* ViewController.swift */,
+				844DD64827D4053100867338 /* Main.storyboard */,
+				844DD64B27D4053500867338 /* Assets.xcassets */,
+				844DD64D27D4053500867338 /* LaunchScreen.storyboard */,
+				844DD65027D4053500867338 /* Info.plist */,
+				844DD65627D406EF00867338 /* awaitingCatsViewController.swift */,
+				844DD65827D4070800867338 /* adoptedCatsViewController.swift */,
+				844DD66027D502D000867338 /* addCatViewController.swift */,
+			);
+			path = CatAdoptionApp;
+			sourceTree = "<group>";
+		};
+		844DD65A27D428D100867338 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				844DD65B27D4294200867338 /* Cat.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		844DD65D27D432EF00867338 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				844DD65E27D4332300867338 /* CatCard.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844DD63E27D4053100867338 /* CatAdoptionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844DD65327D4053500867338 /* Build configuration list for PBXNativeTarget "CatAdoptionApp" */;
+			buildPhases = (
+				844DD63B27D4053100867338 /* Sources */,
+				844DD63C27D4053100867338 /* Frameworks */,
+				844DD63D27D4053100867338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatAdoptionApp;
+			packageProductDependencies = (
+				844DD66327D6916300867338 /* Realm */,
+				844DD66527D6916300867338 /* RealmSwift */,
+			);
+			productName = CatAdoptionApp;
+			productReference = 844DD63F27D4053100867338 /* CatAdoptionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844DD63727D4053100867338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = administrator;
+				TargetAttributes = {
+					844DD63E27D4053100867338 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 844DD63A27D4053100867338 /* Build configuration list for PBXProject "CatAdoptionApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844DD63627D4053100867338;
+			packageReferences = (
+				844DD66227D6916300867338 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 844DD64027D4053100867338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844DD63E27D4053100867338 /* CatAdoptionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844DD63D27D4053100867338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DD64F27D4053500867338 /* LaunchScreen.storyboard in Resources */,
+				844DD64C27D4053500867338 /* Assets.xcassets in Resources */,
+				844DD64A27D4053100867338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844DD63B27D4053100867338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DD65F27D4332300867338 /* CatCard.swift in Sources */,
+				844DD64727D4053100867338 /* ViewController.swift in Sources */,
+				844DD64327D4053100867338 /* AppDelegate.swift in Sources */,
+				844DD65C27D4294200867338 /* Cat.swift in Sources */,
+				844DD65927D4070800867338 /* adoptedCatsViewController.swift in Sources */,
+				844DD66127D502D000867338 /* addCatViewController.swift in Sources */,
+				844DD65727D406EF00867338 /* awaitingCatsViewController.swift in Sources */,
+				844DD64527D4053100867338 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844DD64827D4053100867338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844DD64927D4053100867338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844DD64D27D4053500867338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844DD64E27D4053500867338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844DD65127D4053500867338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844DD65227D4053500867338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844DD65427D4053500867338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatAdoptionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.uni-obuda.CatAdoptionApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844DD65527D4053500867338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatAdoptionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.uni-obuda.CatAdoptionApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844DD63A27D4053100867338 /* Build configuration list for PBXProject "CatAdoptionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844DD65127D4053500867338 /* Debug */,
+				844DD65227D4053500867338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844DD65327D4053500867338 /* Build configuration list for PBXNativeTarget "CatAdoptionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844DD65427D4053500867338 /* Debug */,
+				844DD65527D4053500867338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		844DD66227D6916300867338 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		844DD66327D6916300867338 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844DD66227D6916300867338 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		844DD66527D6916300867338 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844DD66227D6916300867338 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 844DD63727D4053100867338 /* Project object */;
+}
